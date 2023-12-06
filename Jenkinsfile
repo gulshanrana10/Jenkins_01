@@ -43,7 +43,7 @@ pipeline {
 
                 cd myapp
 
-                python3 hello.py
+                python3.11 hello.py
 
 
                 '''
