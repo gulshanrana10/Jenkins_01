@@ -76,6 +76,7 @@ pipeline {
                 sh '''
 
                 echo "you should sleep.."
+                python3.11 food.py
 
                 '''
 
