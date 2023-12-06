@@ -67,6 +67,21 @@ pipeline {
             }
 
         }
+         stage('Saksi') {
+
+            steps {
+
+                echo 'Goodnight....'
+
+                sh '''
+
+                echo "you should sleep.."
+
+                '''
+
+            }
+
+        }
 
     }
 
