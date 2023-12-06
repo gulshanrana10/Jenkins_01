@@ -26,9 +26,6 @@ pipeline {
 
                 sh '''
 
-                cd myapp
-
-                pip install -r requirements.txt
 
                 '''
 
@@ -48,7 +45,6 @@ pipeline {
 
                 python3 hello.py
 
-                python3 hello.py --name=Gulshan
 
                 '''
 
