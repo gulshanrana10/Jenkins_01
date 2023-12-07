@@ -25,7 +25,7 @@ pipeline {
                 echo "Building.."
 
                 sh '''
-
+                mkdir folder
 
                 '''
 
