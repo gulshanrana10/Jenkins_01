@@ -44,6 +44,7 @@ pipeline {
                 cd myapp
 
                 python3.11 hello.py
+                docker ps
 
 
                 '''
@@ -67,22 +68,7 @@ pipeline {
             }
 
         }
-         stage('Saksi') {
 
-            steps {
-
-                echo 'Goodnight....'
-
-                sh '''
-
-                echo "you should sleep.."
-                python3.11 food.py
-
-                '''
-
-            }
-
-        }
 
     }
 
